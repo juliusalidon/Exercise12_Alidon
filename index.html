@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-danger p-1 sticky-top">
+        <div class="container">
+            <!-- Navigation Title -->
+            <a class="navbar-brand text-primary" href="">
+                <img src="img/Screenshot 2023-07-18 113535.png" style="height: 80px;" alt="">
+            </a>
+            <!-- navigation Title -->
+            <!-- Navigation Button -->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigationExercise10">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Button -->
+
+            <!-- Navigation List -->
+            <div class="collapse navbar-collapse" id="navigationExercise10">
+                <ul class="navbar-nav" style="font-family: Cambria; font-size: 20px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="">
+                            Home
+                        </a>    
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownSample" data-bs-toggle="dropdown">
+                            Pirate Crew
+                        </a>
+                        <ul class="dropdown-menu   bg-danger">
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    Straw Hat Pirates
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    White Beard Pirates
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    Red Hair Pirates
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    Beast Pirates
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    Big Mom Pirates
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    Black Beard Pirates
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    Heart Pirates
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    Kid Pirates
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    Firetank Pirates
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    Sun Pirates
+                                </a>
+                            </li>
+                        </ul>    
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            Contact Us
+                        </a>    
+                    </li>
+                </ul>
+            </div>
+            <div class="input-group w-25">
+                <input type="text" class="form-control" name="Username5" />
+                <button class="btn btn-dark">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <!-- Navigation List -->
+        </div>
+        
+    </nav>
+    <div id="carouselSample" class="carousel slide" data-bs-ride="carousel">
+        <!-- carousel indicators -->
+        <div class="carousel-indicators">
+            <button data-bs-target="#carouselSample" data-bs-slide-to="0" class="active">
+
+            </button>
+            <button data-bs-target="#carouselSample" data-bs-slide-to="1">
+
+            </button>
+            <button data-bs-target="#carouselSample" data-bs-slide-to="2">
+
+            </button><button data-bs-target="#carouselSample" data-bs-slide-to="3">
+
+            </button>
+            <!-- in programming we always count starting from 0 -->
+            <!-- data-bs-slide-to refers to the image that it will redirect -->
+            <!-- class active will be put in the active slide -->
+        </div>    
+        <!-- carousel indicators -->
+        <!-- carousel body -->
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/luffycarousel.jpg" class="d-block w-100" alt="">
+                <!-- <div class="carousel-caption d-block d-none d-md-block">
+                    <h3>SUBSCRIBE NOW</h3>
+                    <P>Promo ends on July 30!</P>
+                </div> -->
+              </div>
+              <div class="carousel-item">
+                <img src="img/OPCAROUSEL2.jpg" class="d-block w-100" alt="">
+                <!-- <div class="carousel-caption d-block d-none d-md-block">
+                    <h3 class="text-danger">SUBSCRIBE NOW</h3>
+                    <P>Promo ends on July 30!</P>
+                </div> -->
+              </div>
+              <div class="carousel-item">
+                <img src="img/OPCAROUSEL.jpg" class="d-block w-100" alt="">
+                <!-- <div class="carousel-caption d-block d-none d-md-block">
+                    <h3>SUBSCRIBE NOW</h3>
+                    <P>Promo ends on July 30!</P>
+                </div> -->
+              </div>
+              <div class="carousel-item">
+                <img src="img/OPCAROUSEL3.jpg" class="d-block w-100" alt="">
+                <!-- <div class="carousel-caption d-block d-none d-md-block">
+                    <h3>SUBSCRIBE NOW</h3>
+                    <P>Promo ends on July 30!</P>
+                </div> -->
+              </div>
+          </div>
+          <!-- important to set which carousel item is active -->
+        <!-- carousel body  -->
+        <!-- carousel buttons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselSample" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        <!-- carousel buttons -->
+    </div>
+    <div class="container my-5">
+        <!-- MX -margin for left and right -->
+        <!-- my - margin for top and bottom -->
+        <h1 class="text-warning text-center">Strawhat Pirates</h1>
+        <br><br><br><br>
+        <div class="row g-3">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="card bg-warning">
+                    <img src="img/LUFFYCAPTAIN.gif" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">CAPTAIN</h3>
+                        <br>
+                        <h5>Monkey D. Luffy</h5>
+                        <br>
+                        <p class="card-text">
+                            Monkey D. Luffy, also known as "Straw Hat Luffy" and commonly as "Straw Hat",is the founder and captain of the increasingly infamous and powerful Straw Hat Pirates, as well as the most powerful of its top fighters.He desires to find the legendary treasure left behind by the late Gol D. Roger and thereby become the Pirate King, which would help facilitate an unknown dream of his that he has told only to Shanks, his brothers, and crew. He believes that being the Pirate King means having the most freedom in the world.
+                        </p>
+                        <br><br>
+                        <a class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1">Know More</a>
+                    </div>
+                </div>
+            </div>       
+        </div>
+        <br><br><br>
+        <h1 class="text-warning text-center">NAKAMAS</h1>
+        <br><br><br>
+        <h3 class="text-warning text-center">MONSTER TRIO</h3>
+        <br><br>
+        <div class="row g-3">
+            <div class="col-md-4">
+                <div class="card h-100 bg-warning">
+                    <img src="img/zoro.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Roronoa Zoro</h5>
+                        <br>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, autem. Eaque dignissimos neque fugit, suscipit corrupti nam debitis a nostrum sed ipsam dolores esse reiciendis distinctio, perferendis odio, non maiores!
+                        </p>
+                        <a class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 bg-warning">
+                    <img src="img/sanji.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <br>
+                        <h5 class="card-title">'Black Leg' Sanji</h5>
+                        <br>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste minus ad, nesciunt eveniet harum sint officiis architecto maxime. Dolore, quas. Quo eum blanditiis inventore? Magni in facilis minima quisquam voluptate.
+                        </p>
+                        <br><br><br><br>
+                        <a class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 bg-warning">
+                    <img src="img/jinbei.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">'Knight of the Sea' Jinbe</h5>
+                        <br>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore aliquid odio a ea magnam laboriosam amet possimus recusandae? Voluptate hic unde, necessitatibus dignissimos neque porro praesentium ex vero exercitationem quis!
+                        </p>
+                        <a class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal3">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+        <h2 class="text-warning text-center" >OTHER NAKAMAS</h2>
+        <br><br>
+        <div class="row g-3">
+            <div class="col-md-4">
+                <div class="card h-100 bg-warning">
+                    <img src="img/nami.jpg" class="card-img-top p-2" style="max-height:500px" alt="">
+                    <div class="card-body">
+                        <br>
+                        <h5 class="card-title">'Cat Burglar' Nami</h5>
+                        <br>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste minus ad, nesciunt eveniet harum sint officiis architecto maxime. Dolore, quas. Quo eum blanditiis inventore? Magni in facilis minima quisquam voluptate.
+                        </p>
+                        <br><br><br><br>
+                        <a class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 bg-warning">
+                    <img src="img/usopp.jpg" class="card-img-top p-2" style="max-height:500px" alt="">
+                    <div class="card-body">
+                        <br>
+                        <h5 class="card-title">"God" Ussop</h5>
+                        <br>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste minus ad, nesciunt eveniet harum sint officiis architecto maxime. Dolore, quas. Quo eum blanditiis inventore? Magni in facilis minima quisquam voluptate.
+                        </p>
+                        <br><br><br><br>
+                        <a class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 bg-warning">
+                    <img src="img/chopper.jpg" class="card-img-top p-2" style="max-height:500px" alt="">
+                    <div class="card-body">
+                        <br>
+                        <h5 class="card-title">Tony Tony Chopper</h5>
+                        <br>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste minus ad, nesciunt eveniet harum sint officiis architecto maxime. Dolore, quas. Quo eum blanditiis inventore? Magni in facilis minima quisquam voluptate.
+                        </p>
+                        <br><br><br><br>
+                        <a class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 bg-warning">
+                    <img src="img/nico.jpg" class="card-img-top p-2" style="max-height:500px" alt="">
+                    <div class="card-body">
+                        <br>
+                        <h5 class="card-title">Nico Robin</h5>
+                        <br>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste minus ad, nesciunt eveniet harum sint officiis architecto maxime. Dolore, quas. Quo eum blanditiis inventore? Magni in facilis minima quisquam voluptate.
+                        </p>
+                        <br><br><br><br>
+                        <a class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 bg-warning">
+                    <img src="img/franky.jpg" class="card-img-top p-2" style="max-height:500px" alt="">
+                    <div class="card-body">
+                        <br>
+                        <h5 class="card-title">'Iron Man' Franky</h5>
+                        <br>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste minus ad, nesciunt eveniet harum sint officiis architecto maxime. Dolore, quas. Quo eum blanditiis inventore? Magni in facilis minima quisquam voluptate.
+                        </p>
+                        <br><br><br><br>
+                        <a class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 bg-warning">
+                    <img src="img/brook.jpg" class="card-img-top p-2" style="max-height:500px" alt="">
+                    <div class="card-body">
+                        <br>
+                        <h5 class="card-title">'Soul King' Brook</h5>
+                        <br>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste minus ad, nesciunt eveniet harum sint officiis architecto maxime. Dolore, quas. Quo eum blanditiis inventore? Magni in facilis minima quisquam voluptate.
+                        </p>
+                        <br><br><br><br>
+                        <a class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">Know More</a>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div> 
+     
+    <div class="container-fluid bg-danger p-2 text-light">
+        <h5>Copyright 2023</h5>
+     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
